@@ -11,7 +11,7 @@
 #include <torch/types.h>
 #include <vector>
 #include "dietgpu_hip/ans_hip/GpuANSCodec.h.hip"
-#include "dietgpu_hip/float/GpuFloatCodec.h.hip"
+#include "dietgpu_hip/float_hip/GpuFloatCodec.h.hip"
 #include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
 
 namespace dietgpu {
