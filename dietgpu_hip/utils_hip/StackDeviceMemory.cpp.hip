@@ -11,7 +11,7 @@
 #include <algorithm>
 #include <iostream>
 #include <sstream>
-#include "dietgpu_hip/utils_hip/DeviceUtils.h"
+#include "dietgpu_hip/utils_hip/DeviceUtils.h.hip"
 
 namespace dietgpu {
 

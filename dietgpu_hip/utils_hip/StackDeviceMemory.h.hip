@@ -8,7 +8,7 @@
 #pragma once
 
 #include <hip/hip_runtime.h>
-#include <dietgpu/utils/DeviceUtils.h>
+#include <dietgpu/utils/DeviceUtils.h.hip>
 #include <dietgpu/utils/StaticUtils.h>
 #include <glog/logging.h>
 #include <list>
