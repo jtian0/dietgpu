@@ -10,9 +10,9 @@
 #include "dietgpu_hip/ans_hip/BatchProvider.cuh.hip"
 #include "dietgpu_hip/ans_hip/GpuANSUtils.cuh.hip"
 #include "dietgpu_hip/utils_hip/DeviceDefs.cuh.hip"
-#include "dietgpu_hip/utils_hip/DeviceUtils.h"
+#include "dietgpu_hip/utils_hip/DeviceUtils.h.hip"
 #include "dietgpu_hip/utils_hip/PtxUtils.cuh.hip"
-#include "dietgpu_hip/utils_hip/StaticUtils.h"
+#include "dietgpu_hip/utils_hip/StaticUtils.h.hip"
 
 #include <cmath>
 #include <hipcub/hipcub.hpp>

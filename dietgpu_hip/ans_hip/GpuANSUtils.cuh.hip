@@ -10,7 +10,7 @@
 #include <assert.h>
 #include <hip/hip_runtime.h>
 #include "dietgpu_hip/utils_hip/DeviceDefs.cuh.hip"
-#include "dietgpu_hip/utils_hip/StaticUtils.h"
+#include "dietgpu_hip/utils_hip/StaticUtils.h.hip"
 
 namespace dietgpu {
 

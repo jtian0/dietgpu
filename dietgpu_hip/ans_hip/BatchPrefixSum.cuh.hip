@@ -10,7 +10,7 @@
 #include <hip/hip_runtime.h>
 #include <hipcub/hipcub.hpp>
 #include <vector>
-#include "dietgpu_hip/utils_hip/StaticUtils.h"
+#include "dietgpu_hip/utils_hip/StaticUtils.h.hip"
 
 namespace dietgpu {
 

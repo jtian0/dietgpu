@@ -9,7 +9,7 @@
 
 #include <hip/hip_runtime.h>
 #include <cassert>
-#include "dietgpu_hip/ans_hip/GpuANSCodec.h"
+#include "dietgpu_hip/ans_hip/GpuANSCodec.h.hip"
 
 namespace dietgpu {
 

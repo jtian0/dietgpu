@@ -8,7 +8,7 @@
 
 #include <hip/hip_runtime.h>
 #include "dietgpu_hip/ans_hip/BatchProvider.cuh.hip"
-#include "dietgpu_hip/ans_hip/GpuANSCodec.h"
+#include "dietgpu_hip/ans_hip/GpuANSCodec.h.hip"
 #include "dietgpu_hip/ans_hip/GpuANSInfo.cuh.hip"
 
 namespace dietgpu {

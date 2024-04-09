@@ -9,15 +9,15 @@
 
 
 #include "dietgpu_hip/ans_hip/BatchProvider.cuh.hip"
-#include "dietgpu_hip/ans_hip/GpuANSCodec.h"
+#include "dietgpu_hip/ans_hip/GpuANSCodec.h.hip"
 #include "dietgpu_hip/ans_hip/GpuANSInfo.cuh.hip"
 #include "dietgpu_hip/ans_hip/GpuANSUtils.cuh.hip"
 #include "dietgpu_hip/ans_hip/GpuChecksum.cuh.hip"
 #include "dietgpu_hip/utils_hip/DeviceDefs.cuh.hip"
-#include "dietgpu_hip/utils_hip/DeviceUtils.h"
+#include "dietgpu_hip/utils_hip/DeviceUtils.h.hip"
 #include "dietgpu_hip/utils_hip/PtxUtils.cuh.hip"
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
-#include "dietgpu_hip/utils_hip/StaticUtils.h"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
+#include "dietgpu_hip/utils_hip/StaticUtils.h.hip"
 
 #include <glog/logging.h>
 #include <cmath>

@@ -10,8 +10,8 @@
 #include <cassert>
 #include "dietgpu_hip/utils_hip/DeviceDefs.cuh.hip"
 #include "dietgpu_hip/utils_hip/PtxUtils.cuh.hip"
-#include "dietgpu_hip/utils_hip/StaticUtils.h"
-#include "dietgpu_hip/float_hip/GpuFloatCodec.h"
+#include "dietgpu_hip/utils_hip/StaticUtils.h.hip"
+#include "dietgpu_hip/float_hip/GpuFloatCodec.h.hip"
 
 #include <hip/hip_runtime.h>
 #include <glog/logging.h>

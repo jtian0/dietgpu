@@ -14,9 +14,9 @@
 #include <random>
 #include <vector>
 
-#include "dietgpu_hip/float_hip/GpuFloatCodec.h"
+#include "dietgpu_hip/float_hip/GpuFloatCodec.h.hip"
 #include "dietgpu_hip/float_hip/GpuFloatUtils.cuh.hip"
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
 
 using namespace dietgpu;
 

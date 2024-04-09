@@ -8,10 +8,10 @@
 
 #include <hip/hip_runtime.h>
 #include "dietgpu_hip/ans_hip/BatchProvider.cuh.hip"
-#include "dietgpu_hip/float_hip/GpuFloatCodec.h"
+#include "dietgpu_hip/float_hip/GpuFloatCodec.h.hip"
 #include "dietgpu_hip/float_hip/GpuFloatDecompress.cuh.hip"
-#include "dietgpu_hip/utils_hip/DeviceUtils.h"
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
+#include "dietgpu_hip/utils_hip/DeviceUtils.h.hip"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
 
 #include <glog/logging.h>
 #include <cmath>

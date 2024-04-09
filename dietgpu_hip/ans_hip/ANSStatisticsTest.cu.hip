@@ -14,7 +14,7 @@
 
 #include "dietgpu_hip/ans_hip/GpuANSStatistics.cuh.hip"
 #include "dietgpu_hip/ans_hip/GpuANSUtils.cuh.hip"
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
 
 using namespace dietgpu;
 

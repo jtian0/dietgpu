@@ -8,11 +8,11 @@
 
 #include <hip/hip_runtime.h>
 #include "dietgpu_hip/ans_hip/BatchProvider.cuh.hip"
-#include "dietgpu_hip/float_hip/GpuFloatCodec.h"
+#include "dietgpu_hip/float_hip/GpuFloatCodec.h.hip"
 #include "dietgpu_hip/float_hip/GpuFloatInfo.cuh.hip"
-#include "dietgpu_hip/utils_hip/DeviceUtils.h"
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
-#include "dietgpu_hip/utils_hip/StaticUtils.h"
+#include "dietgpu_hip/utils_hip/DeviceUtils.h.hip"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
+#include "dietgpu_hip/utils_hip/StaticUtils.h.hip"
 
 namespace dietgpu {
 

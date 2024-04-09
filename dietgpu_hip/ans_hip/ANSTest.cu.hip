@@ -12,8 +12,8 @@
 #include <random>
 #include <vector>
 
-#include "dietgpu_hip/ans_hip/GpuANSCodec.h"
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
+#include "dietgpu_hip/ans_hip/GpuANSCodec.h.hip"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
 
 using namespace dietgpu;
 

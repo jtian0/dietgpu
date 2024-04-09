@@ -7,10 +7,10 @@
 
 
 #include <hip/hip_runtime.h>
-#include "dietgpu_hip/ans_hip/GpuANSCodec.h"
+#include "dietgpu_hip/ans_hip/GpuANSCodec.h.hip"
 #include "dietgpu_hip/ans_hip/GpuANSDecode.cuh.hip"
 #include "dietgpu_hip/ans_hip/GpuANSUtils.cuh.hip"
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
 
 #include <glog/logging.h>
 #include <cmath>

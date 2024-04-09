@@ -8,7 +8,7 @@
 #pragma once
 
 #include <hip/hip_runtime.h>
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
 
 namespace dietgpu {
 
