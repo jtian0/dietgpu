@@ -7,9 +7,11 @@
 
 #pragma once
 
+#include <cassert>
 #include "dietgpu/utils/DeviceDefs.cuh"
 #include "dietgpu/utils/PtxUtils.cuh"
 #include "dietgpu/utils/StaticUtils.h"
+#include "dietgpu/float/GpuFloatCodec.h"
 
 #include <cuda.h>
 #include <glog/logging.h>

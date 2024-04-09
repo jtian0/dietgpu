@@ -8,6 +8,7 @@
 #pragma once
 
 #include <cuda.h>
+#include <cassert>
 #include "dietgpu/ans/GpuANSCodec.h"
 
 namespace dietgpu {

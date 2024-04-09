@@ -118,20 +118,12 @@ int getDeviceForAddress(const void* p) {
   }
 
   // memoryType is deprecated for CUDA 10.0+
-#if CUDA_VERSION < 10000
-  if (att.memoryType == cudaMemoryTypeHost) {
-    return -1;
-  } else {
-    return att.device;
-  }
-#else
   // FIXME: what to use for managed memory?
   if (att.type == cudaMemoryTypeDevice) {
     return att.device;
   } else {
     return -1;
   }
-#endif
 }
 
 bool getFullUnifiedMemSupport(int device) {

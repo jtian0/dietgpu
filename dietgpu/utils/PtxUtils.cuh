@@ -8,6 +8,7 @@
 #pragma once
 
 #include <cuda.h>
+#include <dietgpu/utils/DeviceDefs.cuh>
 
 namespace dietgpu {
 
