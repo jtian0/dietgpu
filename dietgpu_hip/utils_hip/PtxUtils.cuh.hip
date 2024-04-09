@@ -8,7 +8,7 @@
 #pragma once
 
 #include <hip/hip_runtime.h>
-#include <dietgpu/utils/DeviceDefs.cuh>
+#include <dietgpu_hip/utils_hip/DeviceDefs.cuh>
 
 namespace dietgpu {
 
