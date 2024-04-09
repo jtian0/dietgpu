@@ -7,11 +7,11 @@
 
 
 #include <hip/hip_runtime.h>
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
+#include "dietgpu_hip/utils_hip/StackDeviceMemory.h"
 #include <algorithm>
 #include <iostream>
 #include <sstream>
-#include "dietgpu_hip/utils_hip/DeviceUtils.h.hip"
+#include "dietgpu_hip/utils_hip/DeviceUtils.h"
 
 namespace dietgpu {
 
