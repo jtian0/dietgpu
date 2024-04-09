@@ -7,7 +7,7 @@
 
 
 #include <hip/hip_runtime.h>
-#include "dietgpu_hip/utils_hip/DeviceUtils.h.hip"
+#include "dietgpu_hip/utils_hip/DeviceUtils.h"
 #include <hip/hip_runtime_api.h>
 #include <mutex>
 #include <unordered_map>
