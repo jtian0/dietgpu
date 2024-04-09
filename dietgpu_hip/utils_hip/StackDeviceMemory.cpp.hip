@@ -7,7 +7,7 @@
 
 
 #include <hip/hip_runtime.h>
-#include "dietgpu_hip/utils_hip/StackDeviceMemory.h.hip"
+#include "StackDeviceMemory.h.hip"
 #include <algorithm>
 #include <iostream>
 #include <sstream>
